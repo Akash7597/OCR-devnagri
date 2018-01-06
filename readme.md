@@ -7,7 +7,7 @@ The image may contain more than one character.
 Therefore this is a case of multi-label multi-class classification.
 
 # Neural-Net Architecture
-1) The Output layer of net contains 128 neurons corresponding to each
+1) The Output layer of net contains 128 nodes corresponding to each
 devanagri character.
 2) The input layer is a Convolutional layer taking images of dimension
 64*64
@@ -23,7 +23,7 @@ used for grayscale to binary image conversion.
 3) The images are resized to 64*64 dimension.
 
 # Data augmentation
-The Keras Image Generator is also used to augment training data by rotating
+The Keras Image Generator is used to augment training data by rotating
 and shifting transformations on the fly.
 
 # Results

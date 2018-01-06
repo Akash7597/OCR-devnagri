@@ -24,7 +24,7 @@ used for grayscale to binary image conversion.
 
 # Data augmentation
 The Keras Image Generator is also used to augment training data by rotating
-and shiftings transformations on the fly.
+and shifting transformations on the fly.
 
 # Results
-Using the model and accuracy of 82% was achieved.
+Using the model an accuracy of 82% was achieved.
